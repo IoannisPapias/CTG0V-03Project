@@ -1,0 +1,106 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+background-image: url(".png");
+background-color: white;
+background-size: 100%;
+background-attachment: fixed;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+/* Dropdown CSS from w3schools */
+
+ /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(0, 102, 204);
+  font-family: Arial;
+  border-radius: 20px / 15px;
+  z-index: 1;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover{
+  color: white;
+  background-color: rgb(0, 102, 204);
+}
+
+
+.main-content {
+    background-color:  rgb(240,240,240);
+	background-image: none;
+	max-width: 84%;
+	flex: 1;
+	color: black;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin: 10px;
+	padding: 15px;
+	position:relative;
+	left: 8%;
+	border-radius: 5px / 5px;
+}
+
+
+h1{
+    font-family: "Times New Roman";
+	font-size: 36px;
+    text-shadow: 2px 1px rgba(0,0,0,0.2);
+}
+h2{
+	font-family: "Times New Roman";
+    font-size: 24px;
+    text-shadow: 2px 1px rgba(0,0,0,0.2);
+}
+
+p{
+	font: "Times New Roman";
+	font-size: 18px;
+}
+
+div.text{
+	font-family: "Times New Roman";     
+	font-size: 18px;
+}
+
+a:hover{
+  color: #5022e8;
+  text-decoration: underline;
+
+}
+a{
+  color: #25015b;
+  text-decoration: none;
+
+#IUD-select{
+    display: none;
+}
+
+#query-select{
+    display: inline;
+}
+
+#js-submit{
+    display: none;
+}
+#force{
+    display: none;
+}
+tr:hover{
+    background-color: #00FF00;
+}
